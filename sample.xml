@@ -1,0 +1,29 @@
+<config>
+			
+  <wga_config>
+    <prox_acl_custom_categories>
+        <prox_acl_custom_category>
+            <prox_acl_custom_category_abbrev>Category 1</prox_acl_custom_category_abbrev>	
+            <prox_acl_custom_category_servers>
+                <prox_acl_custom_category_server>1.2.3.4</prox_acl_custom_category_server>
+				<prox_acl_custom_category_server>www.contoso.com</prox_acl_custom_category_server>
+            </prox_acl_custom_category_servers>
+            <prox_acl_custom_category_regex_list>
+                <prox_acl_custom_category_regex>www\.contoso\.com/production/.*\.(nupkg|zip)</prox_acl_custom_category_regex>
+            </prox_acl_custom_category_regex_list>
+        </prox_acl_custom_category>
+		
+        <prox_acl_custom_category>
+            <prox_acl_custom_category_abbrev>Category 2</prox_acl_custom_category_abbrev>	
+            <prox_acl_custom_category_servers>
+                <prox_acl_custom_category_server>5.6.7.8</prox_acl_custom_category_server>
+				<prox_acl_custom_category_server>www.example.com</prox_acl_custom_category_server>
+            </prox_acl_custom_category_servers>
+            <prox_acl_custom_category_regex_list>
+                <prox_acl_custom_category_regex>www\.example\.com/production/.*\.(nupkg|zip)</prox_acl_custom_category_regex>
+            </prox_acl_custom_category_regex_list>
+        </prox_acl_custom_category>
+    </prox_acl_custom_categories>
+  </wga_config>
+
+</config>
